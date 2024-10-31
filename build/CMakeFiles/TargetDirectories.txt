@@ -1,0 +1,4 @@
+/Users/sibgh/Desktop/Graphics Projects/cpp-ray-tracer/build/CMakeFiles/CppRayTracer.dir
+/Users/sibgh/Desktop/Graphics Projects/cpp-ray-tracer/build/CMakeFiles/run.dir
+/Users/sibgh/Desktop/Graphics Projects/cpp-ray-tracer/build/CMakeFiles/edit_cache.dir
+/Users/sibgh/Desktop/Graphics Projects/cpp-ray-tracer/build/CMakeFiles/rebuild_cache.dir

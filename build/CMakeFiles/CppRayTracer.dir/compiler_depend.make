@@ -959,10 +959,13 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: /Users/sibgh/Desktop/Graphics\ Projec
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/color.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/ray.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/vec3.h
 
 
 /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/vec3.h:
+
+/Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/ray.h:
 
 /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/color.h:
 

@@ -12,6 +12,9 @@ include_directories(header)
 # Add executable
 add_executable(CppRayTracer ${SOURCES})
 
+# Set optimization flag specifically for CppRayTracer target
+target_compile_options(CppRayTracer PRIVATE -O2)
+
 # Add a custom command to build, run the executable, and open the image file
 add_custom_target(run
     COMMAND ./CppRayTracer > image.ppm && open image.ppm  # Run the executable and open the image

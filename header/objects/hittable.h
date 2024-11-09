@@ -2,7 +2,7 @@
 #define HITTABLE_H
 
 
-#include "rtweekend.h"  // Includes vec3, ray, and utility functions
+#include "utils/rtweekend.h"  // Includes vec3, ray, and utility functions
 
 
 class hit_record {

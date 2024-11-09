@@ -2,12 +2,11 @@
 #include <vector>
 #include <string>
 // Include other headers that are unlikely to change
-#include "rtweekend.h"      // For utility constants and functions
-
-#include "camera.h"
-#include "hittable.h"
-#include "hittable_list.h"
-#include "sphere.h"
+#include "utils/rtweekend.h"      // For utility constants and functions
+#include "camera/camera.h"
+#include "objects/hittable.h"
+#include "objects/hittable_list.h"
+#include "objects/sphere.h"
 
 // ray_color and main function as before
 
@@ -32,6 +31,8 @@ int main() {
 
     cam.aspect_ratio = 16.0 / 9.0;
     cam.image_width  = 400;
+    cam.samples_per_pixel = 300;    // increased from 100 to 300 
+
 
     cam.render(world);
 }

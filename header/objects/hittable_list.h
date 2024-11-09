@@ -1,7 +1,7 @@
 #ifndef HITTABLE_LIST_H
 #define HITTABLE_LIST_H
 
-#include "rtweekend.h"   // For shared_ptr, ray, and utilities
+#include "utils/rtweekend.h"   // For shared_ptr, ray, and utilities
 
 #include <vector>
 

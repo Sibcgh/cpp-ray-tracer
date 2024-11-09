@@ -956,6 +956,11 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/unistd.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/rtweekend.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/color.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/vec3.h \
-  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/ray.h
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/ray.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/interval.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/hittable.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/hittable_list.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/sphere.h

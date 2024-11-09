@@ -1,9 +1,7 @@
 #ifndef COLOR_H
 #define COLOR_H
 
-#include "vec3.h"
-
-#include <iostream>
+#include "vec3.h"  // Import vec3 explicitly for color alias
 
 using color = vec3;
 

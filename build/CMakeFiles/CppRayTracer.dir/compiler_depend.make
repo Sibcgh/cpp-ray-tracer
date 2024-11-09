@@ -959,13 +959,22 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: /Users/sibgh/Desktop/Graphics\ Projec
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/color.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/hittable.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/hittable_list.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/interval.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/ray.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/rtweekend.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/sphere.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/vec3.h
 
 
 /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/vec3.h:
 
 /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/ray.h:
+
+/Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/hittable_list.h:
+
+/Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/hittable.h:
 
 /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/color.h:
 
@@ -1318,6 +1327,8 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: /Users/sibgh/Desktop/Graphics\ Projec
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stack:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cstddef:
+
+/Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/interval.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/type_identity.h:
 
@@ -2018,6 +2029,8 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: /Users/sibgh/Desktop/Graphics\ Projec
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h:
+
+/Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/sphere.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_contains.h:
 
@@ -2876,6 +2889,8 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: /Users/sibgh/Desktop/Graphics\ Projec
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_ctype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
+
+/Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/rtweekend.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 

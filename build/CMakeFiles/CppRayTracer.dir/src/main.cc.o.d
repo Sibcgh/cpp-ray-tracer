@@ -961,6 +961,7 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/vec3.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/ray.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/interval.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/camera.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/hittable.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/hittable_list.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/sphere.h

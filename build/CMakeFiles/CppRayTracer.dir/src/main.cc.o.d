@@ -1011,5 +1011,6 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/core/ray.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/camera/camera.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/hittable.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/material.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/hittable_list.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/sphere.h

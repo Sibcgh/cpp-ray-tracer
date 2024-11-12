@@ -1012,6 +1012,7 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: /Users/sibgh/Desktop/Graphics\ Projec
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/core/vec3.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/hittable.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/hittable_list.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/material.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/sphere.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/utils/color.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/utils/rtweekend.h
@@ -2556,6 +2557,8 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: /Users/sibgh/Desktop/Graphics\ Projec
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/stdio.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
+
+/Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/material.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/remove_cv.h:
 

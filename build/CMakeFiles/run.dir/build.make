@@ -68,7 +68,7 @@ include CMakeFiles/run.dir/progress.make
 
 CMakeFiles/run: CppRayTracer
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/sibgh/Desktop/Graphics Projects/cpp-ray-tracer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building, running CppRayTracer, and opening image.ppm"
-	./CppRayTracer > image.ppm && open image.ppm
+	/opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E time ./CppRayTracer > image.ppm && open image.ppm
 
 run: CMakeFiles/run
 run: CMakeFiles/run.dir/build.make

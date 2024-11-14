@@ -1010,10 +1010,12 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: /Users/sibgh/Desktop/Graphics\ Projec
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/core/interval.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/core/ray.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/core/vec3.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/cube.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/hittable.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/hittable_list.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/material.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/sphere.h \
+  /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/tetrahedron.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/utils/color.h \
   /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/utils/rtweekend.h
 
@@ -1021,6 +1023,8 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: /Users/sibgh/Desktop/Graphics\ Projec
 /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/utils/rtweekend.h:
 
 /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/utils/color.h:
+
+/Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/tetrahedron.h:
 
 /Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/sphere.h:
 
@@ -1571,6 +1575,8 @@ CMakeFiles/CppRayTracer.dir/src/main.cc.o: /Users/sibgh/Desktop/Graphics\ Projec
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__std_mbstate_t.h:
+
+/Users/sibgh/Desktop/Graphics\ Projects/cpp-ray-tracer/header/objects/cube.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/accumulate.h:
 

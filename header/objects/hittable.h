@@ -1,16 +1,15 @@
 #ifndef HITTABLE_H
 #define HITTABLE_H
 
-
 #include "utils/rtweekend.h"  // Includes vec3, ray, and utility functions
 
 class material;
 
 class hit_record {
-  public:
+public:
     point3 p;
     vec3 normal;
-    shared_ptr<material> mat;
+    shared_ptr<material> mat; // material pointer (use 'mat' instead of 'material_ptr')
     double t;
     bool front_face;
 
@@ -21,11 +20,10 @@ class hit_record {
 };
 
 class hittable {
-  public:
+public:
     virtual ~hittable() = default;
 
-    virtual bool hit(const ray& r, interval ray_t, hit_record& rec) const = 0;
+    virtual bool hit(const ray& r, interval ray_t, hit_record& rec) const = 0; // Use 'interval ray_t' here
 };
-
 
 #endif

@@ -53,6 +53,7 @@ This project is a comprehensive **ray tracing engine** implemented in C++. It bu
 -   **`src/`**: Contains the main source code files.
     -   `main.cc`: Entry point of the application.
     -   `camera/`: Camera and related logic.
+    -   `core/`  : Contains logical components for vectors and intervals
     -   `objects/`: Contains all hittable objects like spheres and materials.
     -   `utils/`: Helper functions and utilities.
 -   **`header/`**: Contains header files for the project.

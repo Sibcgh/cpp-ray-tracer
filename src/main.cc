@@ -22,8 +22,8 @@ int main() {
     camera cam;
 
     // Call the desired scene
-    // scene1(world, cam);  // Call scene1
-    scene2(world, cam); // Uncomment to test scene2
+    scene1(world, cam);  // Call scene1
+    // scene2(world, cam); // Uncomment to test scene2
     //scene3(world, cam); // Uncomment to test scene3
 
     // Render the scene

@@ -68,9 +68,10 @@ Rendered scenes include ground planes, spheres, and complex lighting effects.
 
 ### **Next Steps**
 
--   Add support for **real-time ray tracing** using Apple Metal.
+-   Add support for **real-time ray tracing** using Apple Metal or OpenGL and using GPU based rendering rather than CPU based.
 -   Implement **path tracing** for global illumination.
 -   Optimize rendering with **BVH** for faster scene traversal.
+-   Adding in some more optimizations from Ray Tracing The Next Week
 
 ### **License**
 

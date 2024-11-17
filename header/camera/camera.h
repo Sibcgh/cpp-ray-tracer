@@ -93,22 +93,27 @@ class camera {
     color ray_color(const ray& r, int depth, const hittable& world) const {
         // If we've exceeded the ray bounce limit, no more light is gathered.
         if (depth <= 0)
-            return color(0,0,0);
-        
+            return color(0, 0, 0);
+
         hit_record rec;
 
-        // prevent self intersection that causes shadow acne by using 0.001 off the intersection point
+        // Prevent self-intersection that causes shadow acne by using 0.001 offset
         if (world.hit(r, interval(0.001, infinity), rec)) {
             ray scattered;
             color attenuation;
-            if (rec.mat->scatter(r, rec, attenuation, scattered))
-                return attenuation * ray_color(scattered, depth-1, world);
-            return color(0,0,0);
+            color emitted = rec.mat->emitted(rec.u, rec.v, rec.p);  // Get emitted light
+
+            if (rec.mat->scatter(r, rec, attenuation, scattered)) {
+                return emitted + attenuation * ray_color(scattered, depth - 1, world);
+            } else {
+                return emitted;  // Only emitted light if no scattering
+            }
         }
 
+        // Background gradient
         vec3 unit_direction = unit_vector(r.direction());
-        auto a = 0.5*(unit_direction.y() + 1.0);
-        return (1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
+        auto t = 0.5 * (unit_direction.y() + 1.0);
+        return (1.0 - t) * color(1.0, 1.0, 1.0) + t * color(0.5, 0.7, 1.0);
     }
 
     ray get_ray(int i, int j) const {
@@ -122,8 +127,9 @@ class camera {
 
         auto ray_origin = (defocus_angle <= 0) ? center : defocus_disk_sample();
         auto ray_direction = pixel_sample - ray_origin;
+        auto ray_time = random_double();
 
-        return ray(ray_origin, ray_direction);
+        return ray(ray_origin, ray_direction, ray_time);
     }
 
     point3 defocus_disk_sample() const {

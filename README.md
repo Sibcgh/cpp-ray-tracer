@@ -1,7 +1,3 @@
-Here's a concise and professional README file for your ray tracing project:
-
-* * * * *
-
 **C++ Ray Tracer**
 ==================
 

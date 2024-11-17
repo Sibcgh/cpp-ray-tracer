@@ -8,7 +8,7 @@ This project is a comprehensive **ray tracing engine** implemented in C++. It bu
 ### **Features**
 
 -   **Gaussian Sampling for Anti-Aliasing**: Enhances image quality by smoothing pixel colors using a Gaussian distribution.
--   **Materials & Shading**: Supports Lambertian (diffuse), Metal, and Dielectric materials for realistic lighting and reflections.
+-   **Materials & Shading**: Supports Lambertian (diffuse), Metal, Emissive and Dielectric materials for realistic lighting and reflections.
 -   **Motion Blur**: Simulates realistic motion blur for objects in motion within the scene.
 -   **Depth of Field**: Implements focus effects using a thin lens camera model.
 -   **Procedural Textures**: Generates patterns (like checkerboards) directly in code.
@@ -42,11 +42,10 @@ This project is a comprehensive **ray tracing engine** implemented in C++. It bu
 
 3.  Run the program:
 
-    bash
+    ```bash
 
-    Copy code
-
-    `./raytracer`
+    ./raytracer
+    ```
 
 ### **Key Files and Directories**
 

@@ -11,7 +11,7 @@ This project is a comprehensive **ray tracing engine** implemented in C++. It bu
 -   **Materials & Shading**: Supports Lambertian (diffuse), Metal, Emissive and Dielectric materials for realistic lighting and reflections.
 -   **Motion Blur**: Simulates realistic motion blur for objects in motion within the scene.
 -   **Depth of Field**: Implements focus effects using a thin lens camera model.
--   **Procedural Textures**: Generates patterns (like checkerboards) directly in code.
+-   **Procedural Textures**: (Planned) Generates patterns (like checkerboards) directly in code.
 -   **Dynamic Camera**: Configurable field of view, focus distance, and aspect ratio.
 -   **Bounding Volume Hierarchy (BVH)**: (Planned) Optimize rendering by accelerating ray-object intersections.
 

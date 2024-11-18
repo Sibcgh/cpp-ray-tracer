@@ -58,9 +58,29 @@ This project is a comprehensive **ray tracing engine** implemented in C++. It bu
 -   **`header/`**: Contains header files for the project.
 -   **`build/`**: Compiled binaries and object files.
 
-### **Sample Output**
+### **Next Steps**
 
 Rendered scenes include ground planes, spheres, and complex lighting effects.
+
+**1\. Three Spheres with Diffuse, Metal, and Hollow Materials**
+
+![Three Spheres](images/3_balls_spheres_hollow_diffuse_metal.png)
+
+A hollow glassy ball, a simple ball with lambertian diffusion and a metallic gold ball
+
+**2\. Complex Scene with Cube and Tetrahedron**
+
+![Cubes Spheres and Tetrahedron](/images/balls_cube_tetrahedron.png)
+
+
+**3\. Emissive Sphere Scene**
+
+![Emissive Sphere](/images/emmsive_sphere.png)
+
+
+**4\. Final Render from Ray Tracing in One Weekend**
+
+![Final Render](/images/final_RTOW_render.png)
 
 ### **Next Steps**
 

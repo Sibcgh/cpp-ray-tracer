@@ -58,15 +58,13 @@ This project is a comprehensive **ray tracing engine** implemented in C++. It bu
 -   **`header/`**: Contains header files for the project.
 -   **`build/`**: Compiled binaries and object files.
 
-### **Next Steps**
+### **Sample Outputs**
 
 Rendered scenes include ground planes, spheres, and complex lighting effects.
 
 **1\. Three Spheres with Diffuse, Metal, and Hollow Materials**
 
 ![Three Spheres](images/3_balls_spheres_hollow_diffuse_metal.png)
-
-A hollow glassy ball, a simple ball with lambertian diffusion and a metallic gold ball
 
 **2\. Complex Scene with Cube and Tetrahedron**
 
